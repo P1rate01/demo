@@ -1,0 +1,75 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81)), url(images/Zombies-Background.jpg); /* rgba(0, 0, 0, 0.77) rgba(0, 0, 0, 0.7) */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.logo {
+    text-align: center;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: -80px;
+    width: 350px;
+    height: 350px;
+}
+
+.shadow {
+   filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(1px 1px 1px white);
+}
+
+h1 {
+    text-align: center;
+    top: -200px;
+    display: block;
+    position: relative;
+    font-family: "ginto-bold";
+}
+
+.login {
+    background-color: #5865F2;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+	margin: auto;
+  	position: absolute;
+  	top: 30px;
+  	left: 0;
+  	bottom: 0;
+ 	right: 0;
+  	height: 40px;
+	width: 229px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+}
+
+.login:hover {
+    background-color: #505cdb;
+    cursor: pointer;
+}
+
+.discord-logo {
+    width: 30px;
+    height: 24px;
+}
+
+.discord-text {
+    width: 79px;
+    height: 14px;
+}
+
+@font-face {
+    font-family: "ginto-bold";
+    src: url("Fonts/Ginto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "press-start-2p";
+    src: url("Fonts/Press-Start-2P.ttf");
+}
